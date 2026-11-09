@@ -1,4 +1,3 @@
 package lt.tripbuddy.debt;
 
-public record Transfer() {
-}
+public record Transfer(long fromId, long toId, long amountCents) {}
